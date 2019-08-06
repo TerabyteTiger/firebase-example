@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Firebase Example</title>
-    <link rel="stylesheet" href="./index.css" />
+    
+  </head>
+  <body>
+    <div id="firebaseui-auth-container"></div>
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
-
     <!-- TODO: Add SDKs for Firebase products that you want to use
-https://firebase.google.com/docs/web/setup#config-web-app -->
+    https://firebase.google.com/docs/web/setup#config-web-app -->
     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
-
     <script>
       // Your web app's Firebase configuration
       var firebaseConfig = {
@@ -35,12 +37,5 @@ https://firebase.google.com/docs/web/setup#config-web-app -->
       href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"
     />
     <script src="./auth.js"></script>
-  </head>
-  <body>
-    <div id="firebaseui-auth-container">
-    </div>
-
-    
-    
   </body>
 </html>
